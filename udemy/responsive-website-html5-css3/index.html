@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omnifood</title>
 
     <link rel="stylesheet" href="vendors/css/normalize.css" />
@@ -24,6 +24,11 @@
             src="resources/img/logo-white.png"
             alt="Omnifood logo"
             class="logo"
+          />
+          <img
+            src="resources/img/logo.png"
+            alt="Omnifood logo"
+            class="logo-black"
           />
 
           <ul class="main-nav">
@@ -53,7 +58,7 @@
       </div>
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--section-features">
       <div class="row">
         <h2>Get food fast &mdash; not fast food.</h2>
         <p class="long-copy">
@@ -476,7 +481,7 @@
       </div>
 
       <div class="row">
-        <form action="post" action="#" class="contact-form">
+        <form method="post" action="#" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
               <label for="name">Name</label>
@@ -591,7 +596,6 @@
             <li>
               <a href="#"><i class="ion-social-instagram"></i></a>
             </li>
-
           </ul>
         </div>
       </div>
@@ -602,5 +606,12 @@
         </p>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
   </body>
 </html>
