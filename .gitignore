@@ -4,6 +4,7 @@
 .node_modules/*
 udemy/advanced-css/Natours/node_modules/*
 udemy/advanced-css/Trillo/node_modules/*
+udemy/advanced-css/Nexter/node_modules/*
 udemy/advanced-css/Natours/css/style.prefix.css
 udemy/advanced-css/Natours/css/style.concat.css
 udemy/advanced-css/Natours/css/style.comp.css
